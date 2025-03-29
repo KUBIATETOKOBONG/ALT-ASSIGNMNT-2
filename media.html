@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+
+    <h1>About Me</h1>
+
+    <!-- Responsive Picture -->
+    <picture>
+        <source srcset="./assets/images/image_1.jpg" media="(min-width: 1024px)">
+        <source srcset="./assets/images/image_2.png" media="(min-width: 768px)">
+        <source srcset="./assets/images/image_3.jpeg" media="(max-width: 767px)">
+        <img src="./assets/images/image_1.jpg" alt="My Picture">
+    </picture>
+    <img src="./assets/images/image_2.png" alt="My Picture">
+    </picture>
+    <img src="./assets/images/image_3.jpeg" alt="My Picture">
+    </picture>
+
+
+    <!-- Audio Element -->
+    <h2>My Favorite Music</h2>
+    <audio controls>
+        <source src="./assets/audio/sound_1.mp3" type="audio/mp3">
+        <source src="./assets/audio/sound_2.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>My Introduction Video</h2>
+    <video controls width="600">
+        <source src="./assets/video/video_1.mp4" type="video/mp4">
+        <source src="./assets/video/video_2.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
